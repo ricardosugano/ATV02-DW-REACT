@@ -1,27 +1,27 @@
-# 🎬 CineClássicos - ATV02-DW-REACT
+#  CineClássicos - ATV02-DW-REACT
 
 ![React](https://img.shields.io/badge/React-18.3.1-blue)
 ![Next.js](https://img.shields.io/badge/Next.js-14.2.5-black)
 ![Node.js](https://img.shields.io/badge/Node.js-20.x-green)
 ![API](https://img.shields.io/badge/API-TMDb-purple)
 
-## 📋 Sobre o Projeto
+##  Sobre o Projeto
 
 Projeto desenvolvido para a disciplina de **Desenvolvimento Web III** da **Fatec Registro**.
 
 O CineClássicos é uma aplicação web que consome a API do **TMDb (The Movie Database)** para exibir uma seleção de filmes clássicos do cinema, abrangendo as décadas de 1960 a 1990. O sistema permite visualizar uma lista de filmes, filtrar por década, buscar por título e ver detalhes completos de cada produção.
 
-## 🎯 Funcionalidades
+##  Funcionalidades
 
-- ✅ Listagem de filmes clássicos (1960-1990)
-- ✅ Filtro por década (Anos 70 e Anos 80)
-- ✅ Busca de filmes por título
-- ✅ Visualização de detalhes completos do filme
-- ✅ Paginação infinita ("Carregar Mais")
-- ✅ Interface responsiva e moderna
-- ✅ Design componentizado com CSS Modules
+-  Listagem de filmes clássicos (1960-1990)
+-  Filtro por década (Anos 70 e Anos 80)
+-  Busca de filmes por título
+-  Visualização de detalhes completos do filme
+-  Paginação infinita ("Carregar Mais")
+-  Interface responsiva e moderna
+-  Design componentizado com CSS Modules
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 ### Frontend
 | Tecnologia | Versão | Finalidade |
@@ -42,7 +42,7 @@ O CineClássicos é uma aplicação web que consome a API do **TMDb (The Movie D
 ### API Externa
 - **TMDb (The Movie Database)** - API gratuita de filmes e séries
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 ATV02-DW-REACT/
 ├── api/ # Backend
 │ ├── server-movies.js # Servidor Express
@@ -67,7 +67,7 @@ ATV02-DW-REACT/
 
 text
 
-## 📦 Como Executar
+##  Como Executar
 
 ### Pré-requisitos
 
@@ -109,9 +109,9 @@ node server-movies.js
 Resultado esperado:
 
 text
-🎬 Servidor rodando na porta 3001
-📽️ Teste: http://localhost:3001/api/test
-🎞️ Clássicos: http://localhost:3001/api/movies/classics
+ Servidor rodando na porta 3001
+ Teste: http://localhost:3001/api/test
+ Clássicos: http://localhost:3001/api/movies/classics
 4. Execute o Frontend
 Abra um novo terminal e execute:
 
@@ -128,7 +128,7 @@ text
 5. Acesse a aplicação
 Abra o navegador em: http://localhost:3000
 
-🎮 Como Usar
+ Como Usar
 Navegação
 Clássicos - Exibe os melhores filmes de 1960-1990
 
@@ -145,12 +145,12 @@ Clique em "Voltar" para retornar à lista
 
 Clique em "Carregar Mais" para ver mais resultados (paginação)
 
-📱 Responsividade
+ Responsividade
 Dispositivo	Layout
 Desktop (1200px+)	4-5 cards por linha
 Tablet (768px-1200px)	2-3 cards por linha
 Mobile (até 768px)	1-2 cards por linha
-🔌 Endpoints da API
+ Endpoints da API
 Endpoint	Método	Descrição
 /api/test	GET	Testa se a API está rodando
 /api/movies/classics	GET	Retorna filmes clássicos (1960-1990)
@@ -158,7 +158,7 @@ Endpoint	Método	Descrição
 /api/movies/decade/1980	GET	Retorna filmes dos anos 80
 /api/movies/search/:query	GET	Busca filmes por título
 /api/movies/:id	GET	Retorna detalhes de um filme
-📸 Screenshots
+ Screenshots
 Página Principal
 text
 ┌─────────────────────────────────────────────────────────────┐
@@ -217,7 +217,7 @@ Solução: O backend já está configurado com CORS, verifique se está usando n
 📄 Licença
 Este projeto foi desenvolvido para fins educacionais como parte do curso de Desenvolvimento de Software Multiplataforma da Fatec Registro.
 
-👨‍💻 Autor
+ Autor
 Ricardo Sugano
 
 GitHub: @rsugano
@@ -228,11 +228,10 @@ Professor: Diego Max
 
 Fatec Registro - DSM
 
-🙏 Agradecimentos
+ Agradecimentos
 TMDb pela API gratuita
 
 Next.js pelo framework
 
 Fatec Registro pelo curso
 
-⭐ Se gostou do projeto, deixe uma estrela no GitHub!
