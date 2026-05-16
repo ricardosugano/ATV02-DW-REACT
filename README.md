@@ -204,7 +204,7 @@ useState e useEffect	✅ Ambos utilizados
 Props entre componentes	✅ MovieCard e MovieDetail
 Lista de registros	✅ Grade de filmes
 Registro único	✅ Detalhes do filme
-🐛 Possíveis Problemas e Soluções
+ Possíveis Problemas e Soluções
 Erro 401 - API Key inválida
 Solução: Verifique se a API Key no server-movies.js está correta e ativa.
 
@@ -214,7 +214,7 @@ Solução: Certifique-se de que o backend está rodando na porta 3001.
 Erro de CORS
 Solução: O backend já está configurado com CORS, verifique se está usando node server-movies.js.
 
-📄 Licença
+ Licença
 Este projeto foi desenvolvido para fins educacionais como parte do curso de Desenvolvimento de Software Multiplataforma da Fatec Registro.
 
  Autor
