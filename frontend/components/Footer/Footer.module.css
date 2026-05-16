@@ -1,0 +1,16 @@
+.footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 1.5rem;
+  margin-top: auto;
+  width: 100%;
+}
+
+.footerContent {
+  text-align: center;
+}
+
+.footerContent p {
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+}

@@ -1,0 +1,85 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;  /* Mudou para coluna */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.poster {
+  width: 100%;
+  height: 280px;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.posterPlaceholder {
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.info {
+  padding: 1rem;
+}
+
+.info h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.5rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.year, .rating {
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.overview {
+  color: #888;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .poster, .posterPlaceholder {
+    height: 200px;
+  }
+  
+  .info h3 {
+    font-size: 0.9rem;
+  }
+  
+  .overview {
+    display: none; /* Esconde sinopse no mobile para economizar espaço */
+  }
+}
