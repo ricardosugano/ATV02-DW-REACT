@@ -220,7 +220,7 @@ Este projeto foi desenvolvido para fins educacionais como parte do curso de Dese
  Autor
 Ricardo Sugano
 
-GitHub: @rsugano
+GitHub: @ricardosugano
 
 Disciplina: Desenvolvimento Web III
 
